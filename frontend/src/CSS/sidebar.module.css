@@ -1,0 +1,107 @@
+.nav_menu_active{
+    position: fixed;
+    left: 0%;
+    height: 100%;
+    width: 350px;
+    background-color: aquamarine;
+    transition: all 350ms ;
+}
+
+.nav_menu{
+    position: fixed;
+    height: 100%;
+    width: 0px;
+    left: -100%;
+    transition: all 850ms;
+}
+.nav_menu ul li{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+}
+.nav_menu_active ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    left: -40px;
+    width: 296px;
+    padding:23px ;
+    /* border-radius: 10px; */
+}
+.nav_menu_active ul li a{
+    text-decoration: none;
+    font-size: 38px;
+    padding-right: 40px;
+    color: black;
+    position: relative;
+    top:7px;
+    left: -3px;
+}
+.ic_1{
+    padding-right: 20px;
+    margin-top: 10px;
+    height: 44px;
+    width: 50px;
+}
+.nav_menu ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    left: -40px;
+    width: 296px;
+    padding:23px ;
+    /* border-radius: 10px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    font-size: 38px;
+    padding-right: 40px;
+    position: relative;
+    left: 17px;
+    color: black;
+    /* padding-bottom: 2px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    top:7px;
+    left: -3px;
+}
+.li_1{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    left: 23px;
+    bottom: -477px;
+    width: 296px;
+    padding:23px ;
+    /* border-radius: 10px; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.a{
+    text-decoration: none;
+    font-size: 38px;
+    padding-right: 40px;
+    color: black;
+    position: relative;
+    padding-bottom: 2px;
+    left: -3px;
+    top:14px;
+    background-color: aquamarine;
+    border: none;
+}
+.ic_2{
+    padding-right: 20px;
+    margin-top: 18px;
+    height: 44px;
+    width: 50px;   
+
+}
